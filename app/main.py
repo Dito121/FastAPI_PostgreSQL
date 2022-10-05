@@ -1,8 +1,8 @@
 from typing import TYPE_CHECKING, List
 import fastapi as _fastapi
-import schemas as _schemas
+import app.schemas as _schemas
 import sqlalchemy.orm as _orm
-import services as _services
+import app.services as _services
 
 if TYPE_CHECKING:
     from sqlalchemy.orm import Session
